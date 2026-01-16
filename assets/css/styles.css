@@ -429,3 +429,45 @@ a {
         padding: 0.75rem 1.5rem;
     }
 }
+
+/* ORA Chunk 1: shared navigation (minimal) */
+.site-nav {
+    background: var(--paper);
+    border-bottom: 1px solid var(--border);
+}
+
+.nav-inner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 8px;
+    border-radius: 10px;
+}
+
+.nav-link:hover,
+.nav-link:focus-visible {
+    background: var(--soft);
+}
+
+.nav-cta {
+    margin-left: auto;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 8px 12px;
+    border-radius: 12px;
+    background: var(--accent);
+    color: #fff;
+}
+
+.nav-cta:hover,
+.nav-cta:focus-visible {
+    background: var(--accent-hover);
+}

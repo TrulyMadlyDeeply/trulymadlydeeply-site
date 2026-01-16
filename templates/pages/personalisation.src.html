@@ -2,46 +2,18 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <!-- ORA:include templates/partials/head-common.html -->
   <title>Personalisation help | Truly Madly Deeply Ltd</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="description"
     content="How to provide personalisation details when ordering our products on Amazon, including using Gift Message, messaging the seller, and what happens if we do not receive your details." />
 
-  <meta name="robots" content="index,follow,max-image-preview:large" />
-  <meta name="theme-color" content="#ffffff" />
-
   <link rel="canonical" href="https://www.trulymadlydeeply.biz/personalisation.html" />
-  <link rel="stylesheet" href="/assets/css/styles.css" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
-  <header class="hero-header" style="min-height: 320px;">
-    <div class="hero-overlay"></div>
-
-    <div class="container hero-inner" style="grid-template-columns: 1fr;">
-      <div class="hero-copy">
-        <h1>Personalisation help for Amazon orders</h1>
-        <p class="subhead">
-          Some Amazon listings collect personalisation during checkout. Others explain it in the product description.
-          This page explains the simple ways to send us your personalisation details, and what happens next.
-        </p>
-
-        <div class="hero-actions">
-          <a class="cta-button"
-            href="https://www.amazon.co.uk/s?me=A3RP9F5KQQEMPC&marketplaceID=A1F83G8C2ARO7P&tag=trulymadlydee-21"
-            target="_blank" rel="noopener noreferrer">
-            Browse our Amazon shop
-          </a>
-          <a class="secondary-link" href="/">Back to homepage</a>
-        </div>
-      </div>
-    </div>
-  </header>
+<body data-page-type="info">
+  <!-- ORA:include templates/partials/nav.html -->
+  <!-- ORA:include templates/partials/header-personalisation.html -->
 
   <main id="main">
     <section class="content" aria-label="Personalisation guide">
@@ -112,15 +84,7 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="y"></span> Truly Madly Deeply Ltd</p>
-      <p class="affiliate-disclosure">As an Amazon Associate, we earn from qualifying purchases.</p>
-    </div>
-  </footer>
-
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
-
+  <!-- ORA:include templates/partials/footer.html -->
 </body>
 
 </html>

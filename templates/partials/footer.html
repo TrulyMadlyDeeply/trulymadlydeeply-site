@@ -1,0 +1,15 @@
+<footer class="site-footer">
+    <div class="container">
+        <p>© <span id="y"></span> Truly Madly Deeply Ltd</p>
+        <p class="affiliate-disclosure">
+            As an Amazon Associate, we earn from qualifying purchases.
+        </p>
+    </div>
+</footer>
+
+<script>
+    (function () {
+        var y = document.getElementById('y');
+        if (y) y.textContent = new Date().getFullYear();
+    })();
+</script>
